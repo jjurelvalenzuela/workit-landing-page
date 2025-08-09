@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Fraunces";
+  src: url(../assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf)
+    format("TrueType");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url(../assets/fonts/manrope/Manrope-VariableFont_wght.ttf);
+  font-weight: 100 900;
+}
+
+:root {
+  --color-primary-900: #24053e;
+  --color-primary-500: #584d62;
+  --color-primary-100: #fcf8ff;
+  --color-accent: #44ffa1;
+  --color-neutral: #fff;
+
+  /* TYPOGRAPHY */
+  --preset-ff-primary: "Fraunces", Ariel, sans-serif;
+  --preset-ff-secondary: "Manrope", Ariel, sans-serif;
+
+  /* Fraunces */
+  --preset-fw-semibold: 600;
+  --preset1-fs: 3rem; /*48px*/
+  --preset2-fs: 2rem; /*32px*/
+  --preset3-fs: 1.5rem; /*24px*/
+  --preset1-lh: 1;
+  --preset2-lh: 1.2;
+
+  /* Manrope */
+  --preset-fw-bold: 700;
+  --preset-fw-regular: 400;
+  --preset4-fs: 1rem; /*16px*/
+  --preset5-fs: 1.125rem; /*18px*/
+  --preset4-lh: 1.8;
+  --preset5-lh: 1.5;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}

@@ -1,0 +1,38 @@
+.preset-one,
+.preset-two,
+.preset-three {
+  font-weight: var(--preset-fw-semibold);
+}
+
+.preset-two,
+.preset-three {
+  font-size: var(--preset2-fs);
+}
+
+.preset-one {
+  font-size: var(--preset1-fs);
+  line-height: var(--preset1-lh);
+}
+
+.preset-two {
+  line-height: var(--preset2-lh);
+}
+
+.preset-three {
+  font-size: var(--preset3-fs);
+}
+.preset-four,
+.preset-five {
+  font-family: var(--preset-ff-secondary);
+}
+.preset-four {
+  font-weight: var(--preset-fw-regular);
+  font-size: var(--preset4-fs);
+  line-height: var(--preset4-lh);
+}
+
+.preset-five {
+  font-weight: var(--preset-fw-bold);
+  font-size: var(--preset5-fs);
+  line-height: var(--preset5-lh);
+}
